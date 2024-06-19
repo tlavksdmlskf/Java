@@ -12,6 +12,6 @@ public class StringComparisonMain {
         System.out.println("str1 compareTo str2 : " + str1.compareTo(str2));
         System.out.println("str1 compareToIgnoreCase str2 : " + str1.compareToIgnoreCase(str2));
         System.out.println("str1 starts with 'hello : " + str1.startsWith("hello"));
-        System.out.println("str1 starts with 'hello : " + str1.endsWith("hello"));
+        System.out.println("str1 ends with 'hello : " + str1.endsWith("hello"));
     }
 }
