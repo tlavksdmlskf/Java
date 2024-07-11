@@ -6,7 +6,7 @@ public class LottoGeneratorMain {
         int[] lottoNumbers = generator.generate();
 
         for(int lottoNumber : lottoNumbers){
-            System.out.println(lottoNumber + " ");
+            System.out.print(lottoNumber + " ");
         }
     }
 }
